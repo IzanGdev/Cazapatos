@@ -1,0 +1,20 @@
+import wollok.game.*
+import juego.*
+import mira.*
+import aves.*
+
+
+
+
+program programCazapatos {
+    game.width(18)
+    game.height(18)
+    game.boardGround("fondo.png")
+    game.addVisual(menu)
+    game.title("Duckhunt")
+
+    keyboard.space().onPressDo{mira.disparar()}
+
+    game.start()
+    menu.iniciarJuego()
+}
