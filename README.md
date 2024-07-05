@@ -11,7 +11,6 @@
 
 ![Static Badge](https://img.shields.io/badge/Estado-En_desarrollo-5801A5)
 ![Static Badge](https://img.shields.io/badge/Ultima_actualizacion-Julio/23-8A2BE2)
-![Static Badge](https://img.shields.io/badge/dev_team-Los_Giles_del_Wlk-5801A5)
 
 
 ## Índice
@@ -19,7 +18,6 @@
 * [Descripción del Proyecto](#descripción-del-proyecto)
 * [Tecnologías Utilizadas](#tecnologías-utilizadas)
 * [Colaboradores](#colaboradores)
-* [Índice](#índice)
 
 
 ## Descripción del Proyecto
@@ -31,4 +29,3 @@ Desarrollado en lenguaje [🖥️Wollok](https://uqbar-project.github.io/website
 ## Colaboradores
 [![Static Badge](https://img.shields.io/badge/Agustin_Acu%C3%B1a-5801A5)](https://github.com/Agussttinn)
 [![Static Badge](https://img.shields.io/badge/Felipe_Valdez-5801A5)](https://github.com/Felvaldes)
-[![Static Badge](https://img.shields.io/badge/Luca_Gilardi_Nolla-5801A5)](https://github.com/IzanGdev)
