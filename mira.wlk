@@ -1,18 +1,26 @@
 import wollok.game.*
 import juego.*
+import mira.*
 import aves.*
-import score.*
 
-object mira {
-    var property position = game.at(9, 9)
-    method image() = "mira Final.png"
 
-    method disparar(lista) {
-        lista.forEach { ave =>
-            if (ave.position() == self.position()) {
-                ave.caerMuerto()
-                score.actualizarPuntaje(ave.puntosQueDa())
-            }
-        }
+object puntaje {
+    const property position = game.at(0, 0)
+    const property image = "score xd.png"
+}
+object score {
+    var property position = game.at(0, 0)
+    var property puntos = 0
+    var property image = puntos.toString() + ".png"
+
+    method actualizarPuntaje(puntosGanados) {
+        if (puntos < 10) {puntos = puntos + puntosGanados
+        image = puntos.toString() + ".png"
+        game.removeVisual(self)
+        game.addVisual(self)
+    } else {
+      game.addVisual(win)
+      game.stop()
+    }
     }
 }
