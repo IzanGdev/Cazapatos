@@ -13,7 +13,7 @@ program programCazapatos {
     game.addVisual(menu)
     game.title("Duckhunt")
 
-    keyboard.space().onPressDo{mira.disparar()}
+   
 
     game.start()
     menu.iniciarJuego()
