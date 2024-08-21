@@ -9,19 +9,23 @@
   </h1>
 </div>
 
-![Static Badge](https://img.shields.io/badge/Estado-En_desarrollo-5801A5)
-![Static Badge](https://img.shields.io/badge/Ultima_actualizacion-Julio/23-8A2BE2)
+![Static Badge](https://img.shields.io/badge/Estado-Finalizado-5801A5)
+![Static Badge](https://img.shields.io/badge/Ultima_actualizacion-Agosto/24-8A2BE2)
 
 
 ## Índice
 * [Índice](#índice)
 * [Descripción del Proyecto](#descripción-del-proyecto)
+* [Cómo Jugar](#cómo-jugar)
 * [Tecnologías Utilizadas](#tecnologías-utilizadas)
 * [Colaboradores](#colaboradores)
 
 
 ## Descripción del Proyecto
 Juego desarrollado para la materia Paradigmas de Programación, con enfoque principal en la programación orientada a objetos.
+
+## Cómo Jugar
+La mira se controla con las flechitas (respetando las direcciones en una casilla a la vez) y se efectúa la accion de disparar con la barra espaciadora
 
 ## Tecnologías Utilizadas
 Desarrollado en lenguaje [🖥️Wollok](https://uqbar-project.github.io/website-wollok-ts/), apoyado en el trabajo colaborativo mediante GitHub y el control de versiones a través de Git
